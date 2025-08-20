@@ -98,8 +98,8 @@ function buildPrintPages(values){
   info.innerHTML=`
     <div class="page-content">
       <div class="header">
-         <img src="../logo_sanam.png" alt="شعار سنام الأمن" style="height: 85px;" />
-         <img src="../logo_rajhi.png" alt="شعار الراجحي" />
+         <img src="logo_sanam.png" alt="شعار سنام الأمن" style="height: 85px;" />
+         <img src="logo_rajhi.png" alt="شعار الراجحي" />
       </div>
       <h1>تقرير الحضور والانصراف</h1>
       <div style="font-size:14px;line-height:1.8">
@@ -312,3 +312,4 @@ function finalizePrintPages(){
     if (!hasContent) p.remove();
   });
 }
+
